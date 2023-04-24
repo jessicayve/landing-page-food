@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Lading Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+
+    <!-- <-----Header----->
+    <header class="header">
+        <a href="#" class="logo"><i class="fas fa-utensils"> Foodie</i></a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#restaurants">Restaurants</a>
+            <a href="#categories">Categories</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#review">review</a>
+           
+
+        </nav>
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="berry.jpg" alt="">
+                <div class="content">
+                    <h3>watermelon</h3>
+                    <span class="price">$4.99/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="berry.jpg" alt="">
+                <div class="content">
+                    <h3>watermelon</h3>
+                    <span class="price">$4.99/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="berry.jpg" alt="">
+                <div class="content">
+                    <h3>watermelon</h3>
+                    <span class="price">$4.99/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="total"> total : 19.69</div>
+            <a href="#" class="btn">checkout</a>
+        </div>
+        <form action="" class="login-form">
+            <h3>login now</h3>
+            <input type="email" placeholder="your email" class="box">
+            <input type="password" placeholder="your password" class="box">
+            <p>forgot your password? <a href="#">click here</a></p>
+            <p>don't have an accont <a href="#">create now</a></p>
+            <input type="submit" value="login now" class="btn">
+        </form>
+    </header>
+
+     <!-- <-----Home Section----->
+
+    <script src="script.js" defer></script>
+</body>
+
+</html>
